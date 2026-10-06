@@ -40,5 +40,6 @@ print(type(study_hour))
 print(type(cost_per_hour))
 
 # CALCULATION: COST OF READING A STUDY MATERIAL
+cost_Of_reading = study_hour * cost_per_hour
 
 # OUTPUT: READABLE SUMMARY USING f-STRING
