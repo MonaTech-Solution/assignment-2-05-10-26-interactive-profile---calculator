@@ -43,3 +43,14 @@ print(type(cost_per_hour))
 cost_Of_reading = study_hour * cost_per_hour
 
 # OUTPUT: READABLE SUMMARY USING f-STRING
+print(
+f"""
+*******************************
+STUDENT READING SESSION RECEIPT
+*******************************
+{name} a resident of {city} and a {age} years old.
+Studied for {study_hour} hours.
+At a cost of ${cost_per_hour} per hour.
+Total cost of reading is: ${cost_Of_reading}
+"""
+)
