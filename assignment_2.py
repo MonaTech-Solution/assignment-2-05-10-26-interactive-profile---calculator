@@ -25,18 +25,16 @@ Then the program must:
 • finish with a clean working tree after the final commit
 """
 print("INTERACTIVE PROFILE & CALCULATOR")
-# GETTING INPUT: name, age, city, study_hour, cost_per_hour
+# GETTING & CHECKING TYPE OF INPUT: name, age, city, study_hour, cost_per_hour
 name = input("Enter your name: ")
-age = input("How old are you?: ")
-city = input("City of residence: ")
-study_hour = float(input("Hours of study: "))
-cost_per_hour = 24.0
-
-# VARIABLE TYPE() CHECK
 print(type(name))
+age = input("How old are you?: ")
 print(type(age))
+city = input("City of residence: ")
 print(type(city))
+study_hour = float(input("Hours of study: "))
 print(type(study_hour))
+cost_per_hour = 24.0
 print(type(cost_per_hour))
 
 # CALCULATION: COST OF READING A STUDY MATERIAL
