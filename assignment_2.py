@@ -24,3 +24,16 @@ Then the program must:
 • be saved in a Git repository with at least three meaningful commits
 • finish with a clean working tree after the final commit
 """
+print("INTERACTIVE PROFILE & CALCULATOR")
+# GETTING INPUT: name, age, city, study_hour, cost_per_hour
+name = input("Enter your name: ")
+age = input("How old are you?: ")
+city = input("City of residence: ")
+study_hour = float(input("Hours of study: "))
+cost_per_hour = 24.0
+
+# VARIABLE TYPE() CHECK
+
+# CALCULATION: COST OF READING A STUDY MATERIAL
+
+# OUTPUT: READABLE SUMMARY USING f-STRING
