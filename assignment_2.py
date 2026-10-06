@@ -33,6 +33,11 @@ study_hour = float(input("Hours of study: "))
 cost_per_hour = 24.0
 
 # VARIABLE TYPE() CHECK
+print(type(name))
+print(type(age))
+print(type(city))
+print(type(study_hour))
+print(type(cost_per_hour))
 
 # CALCULATION: COST OF READING A STUDY MATERIAL
 
